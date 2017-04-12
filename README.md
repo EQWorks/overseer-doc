@@ -1,8 +1,12 @@
 *Note*: Unless otherwise stated, `user` and `key` are essential query parameters for all API endpoints
 
-Current API version `beta`
+## API documentations
 
-## `/campaigns`
+[Version `beta`](/api_doc_beta.pdf)
+
+## API Sample Responses
+
+### `/beta/campaigns`
 
 ##### GET `/beta/campaigns/?cuid=12175&state=running&stats=true&legacy=false&user=<USER_EMAIL>&key=<KEY>`
 
@@ -1728,7 +1732,7 @@ Current API version `beta`
 ]
 ```
 
-## `/customers`
+### `/beta/customers`
 
 ##### GET `/beta/customers/?wlid=51&stats=true&user=<USER_EMAIL>&key=<KEY>`
 
