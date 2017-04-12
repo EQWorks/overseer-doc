@@ -1,6 +1,9 @@
-##Note: `user` and `key` are essential as query parameters for all API endpoints. 
+*Note*: `user` and `key` are essential as query parameters for all API endpoints. 
+
 # API Response sample
+
 ##### GET `beta/campaigns/?cuid=12175&state=running&stats=true&legacy=false&user=<USER_EMAIL>&key=<KEY>`
+
 ```json
 {
   "ancestors": [
@@ -50,7 +53,9 @@
   ]
 }
 ```
+
 ##### GET `beta/campaigns/37054?summary=true&incurrency=true&user=<USER_EMAIL>&key=<KEY>`
+
 ```json
 {
   "ancestors": [
@@ -96,7 +101,9 @@
   }
 }
 ```
+
 ##### GET `beta/campaigns/37057/banners?cuid=12175&user=<USER_EMAIL>&key=<KEY>`
+
 ```json
 [
   {
@@ -401,7 +408,9 @@
   }
 ]
 ```
+
 ##### GET `beta/campaigns/37054/children?level=offer&summary=true&incurrency=true&user=<USER_EMAIL>&key=<KEY>`
+
 ```json
 [
   {
@@ -646,7 +655,9 @@
   }
 ]
 ```
+
 ##### GET `beta/campaigns/37057/screenshots?user=<USER_EMAIL>&key=<KEY>`
+
 ```json
 [
   {
@@ -1525,7 +1536,9 @@
   }
 ]
 ```
+
 ##### GET `beta/campaigns/37057/stats?dates=2017-04-10,2017-04-11&revenue=true&onlydaily=false&incurrency=true&format=json&user=<USER_EMAIL>&key=<KEY>`
+
 ```json
 [
   {
@@ -1712,7 +1725,9 @@
   }
 ]
 ```
+
 ##### GET `beta/customers/?wlid=51&stats=true&user=<USER_EMAIL>&key=<KEY>`
+
 ```json
 {
   "ancestor": {
@@ -2062,7 +2077,9 @@
   ]
 }
 ```
+
 ##### GET `beta/customers/12035?user=<USER_EMAIL>&key=<KEY>`
+
 ```json
 {
   "ancestors": [
@@ -2087,7 +2104,9 @@
   }
 }
 ```
+
 ##### GET `beta/customers/12035/banners?user=<USER_EMAIL>&key=<KEY>`
+
 ```json
 [
   {
@@ -2122,7 +2141,9 @@
   }
 ]
 ```
+
 ##### GET `beta/customers/12035/banners/79189?user=<USER_EMAIL>&key=<KEY>`
+
 ```json
 {
   "AdvertiserId": 12036,
