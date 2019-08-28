@@ -27,8 +27,8 @@
       "name": "1477462_Terra Greenhouses "
     }
   ],
-  "campaigns": [
-    {
+  "campaigns": {
+    "37054": {
       "CampCode": 37054,
       "DaysLeft": 23,
       "EndDate": "2017-05-03 23:59:00",
@@ -56,7 +56,7 @@
         "Spend": 0
       }
     }
-  ]
+  }
 }
 ```
 
